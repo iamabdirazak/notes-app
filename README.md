@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Notes App
 
-## Getting Started
+A minimal notes application built with Next.js and TypeScript, designed with a clean structure and simple interactions. Notes are created, edited, and stored locally using the browser’s localStorage.
 
-First, run the development server:
+## Overview
+
+The app provides a lightweight way to capture and manage notes without external services or databases. All data stays on the device, ensuring fast access and simplicity.
+
+## Development
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open the app at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/notes` – routes for listing, creating, and editing notes  
+- `components/` – reusable UI building blocks  
+- `hooks/` – custom logic for managing application state  
+- `types/` – shared TypeScript models
 
-## Learn More
+This layout keeps logic, UI, and routing organized and easy to maintain.
 
-To learn more about Next.js, take a look at the following resources:
+## Data Storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All notes are stored in `localStorage`. Closing or refreshing the browser keeps your notes intact.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Requirements
 
-## Deploy on Vercel
+- Node.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Abdirazak Mubarak  
+November 30, 2025
