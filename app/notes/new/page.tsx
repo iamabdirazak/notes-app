@@ -9,7 +9,7 @@ export default function NewNotePage() {
   const router = useRouter();
 
   return (
-    <div className="p-10 max-w-2xl mx-auto">
+    <div className="p-10 max-w-2xl mx-auto ">
       <h1 className="text-3xl font-bold mb-6">New Note</h1>
 
       <NoteForm

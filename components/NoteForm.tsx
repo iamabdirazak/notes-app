@@ -41,7 +41,7 @@ export function NoteForm({
             />
             <button
                 type="submit"
-                className="px-4 py-2 bg-white text-black rounded-lg hover:bg-gray-250 transition cursor-pointer"
+                className="px-4 py-2 bg-white text-black rounded-[15px] hover:bg-gray-250 transition cursor-pointer"
             >
                 {buttonLabel}
             </button>
