@@ -12,7 +12,7 @@ export default function NotesPage() {
 
       <a
         href="/notes/new"
-        className="inline-block mt-4 px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700"
+        className="inline-block mt-4 px-4 py-2 bg-white text-black rounded-lg hover:bg-gray-250"
       >
         + New Note
       </a>
