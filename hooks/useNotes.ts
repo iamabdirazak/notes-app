@@ -29,6 +29,7 @@ export function useNotes() {
       updatedAt: Date.now(),
     };
     setNotes((prevNotes) => [newNote, ...prevNotes]);
+    return newNote.id;
   };
 
   const updateNote = (id: string, title: string, content: string) => {
